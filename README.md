@@ -8,7 +8,7 @@ GROUP C: Some college
 GROUP D: High School
 GROUP E: Master's Degree
 
-I took some screenshots of the table - keep in mind there are 1000 rows of data so I limited the return to 20. When I write the queries, it still extracts data from all 1000 rows. I want to see if there is a correlation between taking a test prep course vs. not, but also if the educational background of your parent plays a part in the test scores. I picked this dataset because I thought is relevant to the current state of our education system and could open a serious dialogue. The data also includes whether the student recieved a free/reduced rate lunch vs. a standard meal plan. I believe that could play a part in test scores too - poverty has an overwhelming affect on the quality of education. 
+I took some screenshots of the table - keep in mind there are 1000 rows of data so I limited the return to 20. When I write the queries, it still extracts data from all 1000 rows. I want to see if there is a correlation between taking a test prep course vs. not, but also if the educational background of your parent plays a part in the test scores. I picked this dataset because I thought is relevant to the current state of our education system and could open a serious dialogue. The data also includes whether the student recieved a free/reduced rate lunch vs. a standard meal plan. I believe that could play a part in test scores too - poverty has an overwhelming affect on the quality of education. I found students who's parent's had at least a bachelors degree or higher scored higher than those whose parents had a high school diploma or lower. 
 
 1. Created a database called "students" ![image](https://user-images.githubusercontent.com/75811937/110142546-47582680-7da4-11eb-85ee-3579d6d48013.png)
 
@@ -57,6 +57,9 @@ I took some screenshots of the table - keep in mind there are 1000 rows of data 
 16. How many students are male & female
 ![image](https://user-images.githubusercontent.com/75811937/110153893-9c4e6980-7db1-11eb-842f-3fecf75138c6.png)
  
+ 17. Used a CASE Statement to see which scores are pass/fail. Created a conditional statement that if a score is 70 and above, will result in a pass and display "Pass". Anything lower than 70, will display a message of "Fail, must take again" 
+![image](https://user-images.githubusercontent.com/75811937/110509160-ccf31380-80cf-11eb-8e7b-08d56a1457f0.png)
+
 
 
 
