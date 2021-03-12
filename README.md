@@ -14,16 +14,19 @@ This is an ongoing project of mine. My next step is too import this into a Jupyt
 
 Some sample queries: 
 
-1. Created a database called "students" 
+1. Create a database called "students" 
+
 ![image](https://user-images.githubusercontent.com/75811937/110142546-47582680-7da4-11eb-85ee-3579d6d48013.png)
 
-2. Verified the table was created - here's the table schema. I wanted to make sure to match the columns in the .csv file to prevent any errors in MySQL during the importing process.
+2. Created a table called "students_performance". Verified the table was created - here's the table schema. The Kaggle dataset was imported into MySQL I wanted to make sure to match the columns in the .csv file to prevent any errors in MySQL during the importing process.
+
 ![image](https://user-images.githubusercontent.com/75811937/110142398-1f68c300-7da4-11eb-88ae-78841d3b457c.png)
 
 3. If we want an overall view of our data (columns & rows) - Writing a query to select all columns from the table limiting to 20 for purposes of space (there are 1000 rows total)
 ![image](https://user-images.githubusercontent.com/75811937/110142911-a9b12700-7da4-11eb-9a15-05cd01eb507a.png)
 
 4. How many students are male & female? Writing a query to find out how many students are male & female - should equal 1000 since there are 1000 entries
+
 ![image](https://user-images.githubusercontent.com/75811937/110144329-37d9dd00-7da6-11eb-9e6e-a431edcc6e26.png)
 
 5. Writing a query using the count() function to count the educational level of each parents
