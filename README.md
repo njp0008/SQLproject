@@ -29,10 +29,10 @@ Some sample queries:
 
 ![image](https://user-images.githubusercontent.com/75811937/110144329-37d9dd00-7da6-11eb-9e6e-a431edcc6e26.png)
 
-5. Writing a query using the count() function to count the educational level of each parents
+5. How many students have parents whose highest level of education is...?  Writing a query using the count() function to count the number of students who's parents have some high school up to a master's degree.
 ![image](https://user-images.githubusercontent.com/75811937/110146195-47f2bc00-7da8-11eb-8446-b8c5978e5bc4.png)
 
-6. Finding the average test scores (all 3 subjects) for male students with all parental education backgrounds. Placed levels of education alphabetically
+6. What's the average test scores for all 3 subjects for the male students? Finding the average test scores (all 3 subjects) for male students with all parental education backgrounds. Placed levels of education alphabetically
 ![image](https://user-images.githubusercontent.com/75811937/110148426-cb151180-7daa-11eb-8b8d-0602632f3f6a.png)
 
 7. Same as #6 for females
@@ -47,20 +47,20 @@ Some sample queries:
 10. How many students completed a test preperation course?
 ![image](https://user-images.githubusercontent.com/75811937/110150977-e3d2f680-7dad-11eb-8c54-313a86c7edff.png)
 
-11. the average scores of those who took the test preperation course vs. those who didn't
+11. What's the average test scores for students who prepped for the exams and those who didn't? 
 ![image](https://user-images.githubusercontent.com/75811937/110151844-f437a100-7dae-11eb-9c45-22a9ff5f2af4.png)
 
-12. If we want to know the first 20 scores of each subject
+12. What are the first 20 scores of each subject? 
 ![image](https://user-images.githubusercontent.com/75811937/110152412-b38c5780-7daf-11eb-8608-e2de394a90cf.png)
 
-13. Writing a query to find all scores greater(>) than 70
+13. If we wanted to know which students had scores greater than 70 - Writing a query to find all scores greater(>) than 70
 ![image](https://user-images.githubusercontent.com/75811937/110152887-4dec9b00-7db0-11eb-9df9-97ebbead0c08.png)
 
-14. Writing a query to find the highest math score - using the Max() function
+14. What's the highest math score? - using the Max() function
 
 ![image](https://user-images.githubusercontent.com/75811937/110153370-f6026400-7db0-11eb-8fed-c6526f3ed7b4.png)
 
-15. Finding the lowest math score - using Min() function
+15. The lowest math score - using Min() function
 
 ![image](https://user-images.githubusercontent.com/75811937/110153470-1500f600-7db1-11eb-93f0-6ac745d33223.png)
 
@@ -72,6 +72,8 @@ Some sample queries:
 
 ![image](https://user-images.githubusercontent.com/75811937/110509160-ccf31380-80cf-11eb-8e7b-08d56a1457f0.png)
 
+How many students passed & failed the math portion? Used CASE statement and aggregation - the result is not surprising! Math isn't everyone's strong suit!
+![image](https://user-images.githubusercontent.com/75811937/111691167-6a52f380-8804-11eb-864f-95a5e26058fc.png)
 
 
 
