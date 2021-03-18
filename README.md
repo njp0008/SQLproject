@@ -73,6 +73,7 @@ Some sample queries:
 ![image](https://user-images.githubusercontent.com/75811937/110509160-ccf31380-80cf-11eb-8e7b-08d56a1457f0.png)
 
 How many students passed & failed the math portion? Used CASE statement and aggregation - the result is not surprising! Math isn't everyone's strong suit!
+
 ![image](https://user-images.githubusercontent.com/75811937/111691167-6a52f380-8804-11eb-864f-95a5e26058fc.png)
 
 
